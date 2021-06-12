@@ -23,6 +23,56 @@ font-weight:bold;
      font-family: 'Dancing Script', cursive;
      font-size: 1.5em;
       }
+      span.font-crazy{
+          font-weight: 700;
+          font-size: 30px;
+          font-style: italic;
+          color: yellowgreen;
+      }
+     .color-MediumSlateBlue{
+          color:MediumSlateBlue;
+      }
+      .color-i {
+    color: rgb(246,185,28)
+      }
+      .color-n {
+        color: rgb(243,125,0)
+          }
+     .color-s {
+            color: rgb(239,93,8)
+              }
+    .color-t {
+            color: rgb(237,48,0)
+              }
+     .color-as {
+                color: rgb(237,36,3)
+                  }
+     .color-g {
+                    color: rgb(228,0,0)
+                      }
+    .color-r {
+                        color: rgb(214,0,63)
+                          }
+    .color-a {
+                            color: rgb(199,0,110)
+                              }
+    .color-m {
+                                color: rgb(180,0,167)
+                                  }
+.color-teal{
+   color: #008080
+}
+.espaciado-letras{
+    letter-spacing:0.3em;
+}
+.espaciado-palabras{
+    word-spacing: 1.5em;
+}
+.espaciado-lineas{
+  line-height: 3em;
+}
+  
+
 .font-caveat{
 font-family:'Caveat';
 }

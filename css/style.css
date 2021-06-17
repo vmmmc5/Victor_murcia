@@ -1,91 +1,9 @@
 h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
-p.Sice1{
-    font-size:.75em; 
-}
-p.Size2{
-    font-size: 1.5em;
-}
-.fuente-normal{
-  font-weight:400;
-}
-.fuente-negrita{
-font-weight:bold;
-}
-.estilo-italico{
-    font-style: italic;
-}
-.estilo-normal{
-    font-style: normal;
-}
-.fuente-cursiva{
-     font-family: 'Dancing Script', cursive;
-     font-size: 1.5em;
-      }
-      span.font-crazy{
-          font-weight: 700;
-          font-size: 30px;
-          font-style: italic;
-          color: yellowgreen;
-      }
-     .color-MediumSlateBlue{
-          color:MediumSlateBlue;
-      }
-      .color-i {
-    color: rgb(246,185,28)
-      }
-      .color-n {
-        color: rgb(243,125,0)
-          }
-     .color-s {
-            color: rgb(239,93,8)
-              }
-    .color-t {
-            color: rgb(237,48,0)
-              }
-     .color-as {
-                color: rgb(237,36,3)
-                  }
-     .color-g {
-                    color: rgb(228,0,0)
-                      }
-    .color-r {
-                        color: rgb(214,0,63)
-                          }
-    .color-a {
-                            color: rgb(199,0,110)
-                              }
-    .color-m {
-                                color: rgb(180,0,167)
-                                  }
-.color-teal{
-   color: #008080
-}
-.espaciado-letras{
-    letter-spacing:0.3em;
-}
-.espaciado-palabras{
-    word-spacing: 1.5em;
-}
-.espaciado-lineas{
-  line-height: 3em;
-}
-  
 
-.font-caveat{
-font-family:'Caveat';
-}
-/* caveat-regular - latin */
-@font-face {
-    font-family: 'Caveat';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/caveat-v10-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/caveat-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/caveat-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/caveat-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/caveat-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/caveat-v10-latin-regular.svg#Caveat') format('svg'); /* Legacy iOS */
+  
+  span.titulo-lista{
+  font-weight: 900;
+  font-size: 1.2em;
   }

@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+fieldset{
+    width: 40%;
+    height: 800px;
+    display: block;
+    margin: 0 auto;
+   border-radius: 10px;
+   background-color: rgb(204,204,204);
+  border: 1px solid rgb(204,204,204);
+  color: black;
+  font-size: 1.3em;
+  line-height: 1.8em;
+}
+input{
+    font-size: 1em;
+    text-align: center;
+}
+.formulario{
+ width: 70%;
+ margin: 0 auto;
+}

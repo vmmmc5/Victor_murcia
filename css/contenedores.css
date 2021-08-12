@@ -1,4 +1,6 @@
-
+h1{
+    text-align: center;
+}
 .main_box1{
     margin: 0 auto;
     display:  block;
@@ -25,10 +27,13 @@
  }
  .box1{
      background-image: linear-gradient(black,mediumblue,blue,deepskyblue);
+     box-shadow: 5px 5px 5px midnightblue;
  }
  .box3{
      background-image: linear-gradient(orangered,darkorange,orange,coral);
+     box-shadow: 5px 5px 5px rgba(218, 62, 5, 0.486);
  }
  .box2{
      background-image: linear-gradient(black,darkcyan,cyan,aqua);
+     box-shadow: 5px 5px 5px rgb(2, 37, 37);
  }

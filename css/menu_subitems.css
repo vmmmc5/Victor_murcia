@@ -3,48 +3,39 @@
     padding: 0;
 }
 nav{
-    background-color: rgb(46,183,235);
-    font-size: 1.3em;
     cursor: pointer;
+    padding: 0;
 }
 ul{
    list-style: none;
-   text-align: right;
-    padding: 10px;
-}
-li{
-    display: inline-block;
-    padding: 10px;
-    position: relative;
-    transition: all 3s;
+   position: absolute;
+   background-color: rgb(46,183,235);
+   width: 100%;
+   transition: all 2s;
 }
 a{
     display: block;
     text-decoration: none;
-    color: white;
-    transition-timing-function: ease-in-out;
+    color: white;  
+    padding: 0 2.5em;
 }
-li:hover .children{
+li{
+    border-right: 1px solid white;
+}
+.children{
+line-height: 3em;
+display: inline-block;
+position: relative;
+text-align: right;
+}
+.subchildren{
+   text-align: center;
+   transition: all 1.5s;
+   max-height: 0;
+   background-color: rgb(15, 143, 194);
+}
+.children:hover .subchildren{
     display: block;
-    position: absolute;
-    width: 100px;
-}
-.children li{
-    display: block;
-    background-color: rgb(0, 225, 255);
-    text-align: center;
-    overflow: hidden;
-    border-bottom: 1px solid aqua; 
-}
-li .children{
-    display: none;
-    position: relative;
-    transition: all 3s;
-    top: 101%;
-}
-.hover{
-    transition: all 5s;
-}
-.item{
-
+    border-bottom: 1px solid white;
+    max-height: 500px;
 }

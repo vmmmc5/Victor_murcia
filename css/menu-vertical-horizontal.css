@@ -25,7 +25,8 @@
 .nav-horizontal a{
     text-decoration: none;
     color: black;
-    padding: 9px;
+    padding: 20px;
+    cursor: pointer;
 }
 .nav-horizontal li{
     display: inline-block;

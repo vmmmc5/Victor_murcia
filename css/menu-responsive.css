@@ -6,7 +6,7 @@
     display: none;
 }
 nav{    
-    background-color: rgba(41, 17, 253);
+    background-color: #f93800;/* #104c91 */
     width: 100%;
 }
 ul{
@@ -18,7 +18,7 @@ li{
     position: relative;
 }
 nav ul li:hover {
-    background-color: violet;
+    background-color: #283350;/* #efc9af */
 }
 nav ul li a{
     display: block;
@@ -26,12 +26,11 @@ nav ul li a{
     font-size: 1.3em;
     padding: 20px;
     text-decoration: none;
-    padding: 25px;
 }
 .children{
     position: absolute;
     display: none;
-    background-color: rgba(41, 17, 253);
+    background-color: #ffb500;/* #1f8ac0 */
     text-align: left;
 }
 nav ul li:hover .children{

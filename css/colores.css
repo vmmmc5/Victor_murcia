@@ -1,4 +1,27 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background-color: rgb(46,183,235)
+}
+ul{
+  list-style: none;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 10px;
+}
+li{
+  display: inline-block;
+  padding: 15px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+h1{
+  text-align: center;
+}
 .color-MediumSlateBlue{
     color:MediumSlateBlue;
 }

@@ -1,3 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(46,183,235)
+}
+ul{
+    list-style: none;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 10px;
+}
+li{
+    display: inline-block;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 h1{
     text-align: center;
 }
@@ -7,9 +28,9 @@ fieldset{
     display: block;
     margin: 0 auto;
    border-radius: 10px;
-   background-color: rgb(204,204,204);
-  border: 1px solid rgb(204,204,204);
-  color: black;
+   background-color:mediumblue;
+   color: azure;
+  border: 1px solid mediumblue;
   font-size: 1.3em;
   line-height: 1.8em;
 }

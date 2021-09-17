@@ -1,8 +1,27 @@
-body{
-    margin: 0 3em;
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(46,183,235);
+ }
+ul{
+    list-style: none;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 10px;
+}
+li{
+    display: inline-block;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 .nike{
     text-align: center;
+    margin-top: 5%;
 }
 h3{
     text-align: center;
@@ -19,4 +38,5 @@ div{
     margin: 30px;
     height: 290px;
     width: 350px;
+    margin: 0 3em;
 }

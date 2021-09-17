@@ -1,3 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+  background-color: rgb(46,183,235)
+}
+ul{
+    list-style: none;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 10px;
+}
+li{
+    display: inline-block;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 h1{
     text-align: center;
 }
@@ -23,17 +44,18 @@ h1{
     width: 200px;
     height: 200px;
     display: inline-block;
-    padding: 10px;   
+    margin: 10px;
+    border-radius: 9%;   
  }
  .box1{
      background-image: linear-gradient(black,mediumblue,blue,deepskyblue);
-     box-shadow: 5px 5px 5px midnightblue;
- }
- .box3{
-     background-image: linear-gradient(orangered,darkorange,orange,coral);
-     box-shadow: 5px 5px 5px rgba(218, 62, 5, 0.486);
+     box-shadow: 5px 5px 15px midnightblue;
  }
  .box2{
-     background-image: linear-gradient(black,darkcyan,cyan,aqua);
-     box-shadow: 5px 5px 5px rgb(2, 37, 37);
+     background-image: linear-gradient(black,darkviolet,blueviolet,violet);
+     box-shadow: 5px 5px 15px darkviolet;
+ }
+ .box3{
+     background-image: linear-gradient(black,deeppink,palevioletred,pink);
+     box-shadow: 5px 5px 15px deeppink;
  }

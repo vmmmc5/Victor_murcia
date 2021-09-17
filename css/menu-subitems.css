@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(46,183,235);
+    transition: all 5s;
+}
+ul{
+   list-style: none;
+   text-align: center;
+   transition: all 100s;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    transition: all 15s;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+li:hover .children{
+    display: block;
+    position: absolute;
+    width: 100px;
+}
+.children li{
+    display: block;
+    background-color: rgb(0, 134, 187);
+    color: black;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+}
+li .children{
+    display: none;
+    position: absolute;
+    top: 101%;
+}

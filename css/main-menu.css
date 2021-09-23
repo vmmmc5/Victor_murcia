@@ -13,6 +13,7 @@ ul{
 }
 li{
     display: inline-block;
+    position: relative;
     padding: 15px;
 }
 a{
@@ -22,3 +23,12 @@ a{
 .content-main{
     margin: 3em;
 }
+.menu{
+    position: relative;
+    display: none;
+}
+li :hover .menu{
+    display: block;
+    background-color: rgb(46,183,235)
+}
+

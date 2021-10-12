@@ -1,46 +1,50 @@
-.box-style-1{
-    background-color:greenyellow;
+* {
+    margin: 0;
+    padding: 0;
 }
-.box-style-2{
-    background-color: greenyellow;
+.box-style-1 {
+ background: blue;
+}
+.box-style-2 {
+    background: blue;
     height: 600px;
-}
-.box-style-3{
-    background-color: greenyellow;
+   }
+.box-style-3 {
+    background: blue;
     height: 650px;
-}
-.flex-direction-row{
+   }
+.flex-direccion-row {
     display: flex;
-    flex-direction: row;
+    flex-direction: row ;
     gap: 20px;
 }
-.flex-direction-column{
+.flex-direccion-column{
     display: flex;
-    flex-direction: column;
+    flex-direction: column ;
     gap: 20px;
 }
-.flex-direction-wrap{
+.flex-wrap {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
-.flex-direction-no-wrap{
+.flex-no-wrap {
     display: flex;
     gap: 20px;
     flex-wrap: nowrap;
 }
-.flex-flow-column-wrap{
+.flex-flow-column-wrap {
     display: flex;
     gap: 20px;
     flex-flow: column wrap;
     overflow-x: scroll;
 }
-.flex-flow-column-nowrap{
+.flex-flow-column-no-wrap {
     display: flex;
     gap: 20px;
     flex-flow: column nowrap;
 }
-.flex-justify-between{
+.flex-justify-space-between{
     display: flex;
     gap: 20px;
     justify-content: space-between;
@@ -60,45 +64,42 @@
     gap: 20px;
     justify-content: flex-start;
 }
-.flex-justify-flex-end{
+.flex-justify-flex-end {
     display: flex;
     gap: 20px;
     justify-content: flex-end;
 }
-.flex-justify-center{
+.flex-justify-center {
     display: flex;
     gap: 20px;
     justify-content: center;
 }
-.aling-items-flex-start{
+.align-items-flex-start{
     display: flex;
     gap: 20px;
-    justify-content: flex-start;
+    align-items: flex-start;
 }
-.aling-items-flex-end{
+.align-items-flex-end {
     display: flex;
     gap: 20px;
-    justify-content: flex-end;
+    align-items: flex-end;
 }
-.aling-items-flex-center{
+.align-items-center{
     display: flex;
     gap: 20px;
     justify-content: center;
-    justify-content: center;
 }
-.item-flex{
-    background-color: gray;
+.item-flex {
+    background: rgb(247, 243, 243);
     width: 200px;
     height: 200px;
-    color: white;
-    margin: 20px;
-    font-size:1.5em;
+    color: black;
+    font-size: 1.5em;
 }
-.item-flex3{
-    background-color: gray;
+.item-flex3 {
+    background: rgb(247, 243, 243);
     width: 200px;
     height: 400px;
-    color: white;
-    margin: 20px;
-    font-size:1.5em;
+    color: black;
+    font-size: 1.5em;
 }

@@ -3,47 +3,37 @@
     padding: 0;
 }
 nav{
-    height: 100%;
     background-color: rgb(46,183,235);
+    font-family: 'Courier New', Courier, monospace;
     position: fixed;
-    top: 0;
-    width: 18em;
+    top: 70px;
+    height: 100hv;
     overflow: scroll;
 }
 ul{
     list-style: none;
-/*    margin-top: 20px; */
-   flex-direction: column;
-   height: 100%;
-    display: flex;
-    flex-direction: column;
-/*     width: 210px; */
-    list-style: none;
-/*     margin-left: 10px; */
+    display: block;
     font-size: 1.3em;
-/*     padding: 11px; */
 background-color: rgb(46,183,235);
 
 }
 li{
-    padding: 15px;
+    list-style: none;
+    text-align: center;
     font-size: 1.3em;
-    border-bottom: 1px solid   rgb(27, 164, 218);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-li:hover{ 
-    background-color: rgb(0, 162, 226);
-    cursor: pointer;
-
+    display: block;
 }
 a{
-    text-decoration: none;
-    color:white;
-    margin: 10px;
-    font-size: 1em;
-    cursor: pointer;
 
 }
+a:hover{ 
+    padding: 15px;
+    text-decoration: none;
+    color: antiquewhite;
+    display: block;
+    border-bottom: 1px ;
+}
+
 p{
     font-size: 1.3em;
 }
@@ -53,8 +43,7 @@ h1{
     margin-bottom: 25px;
 }
 .content-main{
-    margin:0 1em 0 19em;
-    text-align: justify;
+    margin-left: 3em;
 }
 .menu-box{
     position: fixed;
@@ -70,85 +59,10 @@ h1{
     visibility: hidden;
     height: 60px;
 }
-nav.mostraeNav{
+nav.mostrarNav{
     left: 0;
 }
 .icon-menu{
     float: left;
     color: black;
-}
-@media only screen and(max-width: 600px) {
-    .bt.menu {
-        width: 120px;
-        overflow-x: hidden;
-    }
-    h1 {
-        margin-top: 60px;
-    }
-    .menu-box-invisible {
-        margin-top: 60px;
-    }
-    nav {
-        width: 100%;
-        position: fixed;
-        right: 100%;
-        font-size: 1.4em;
-        overflow-x: hidden;
-    }
-    ul {
-        width: 98%;
-        overflow-x: hidden;
-    }
-         body {
-        padding-top: 70px;
-    } 
-    nav {
-        position: fixed;
-        height: calc(100% - 68px);
-        width: 65%;
-        left: -100%;
-        overflow: auto;
-    }
-     .menu-bar {
-        display: block;
-        width: 100%;
-        position: fixed;
-        top: 0; 
-        background-color: rgb(17, 72, 253);
-    
-    } 
-    .bt-menu {
-        display: block;
-        padding: 20px;
-        color: white;
-        font-size: 25px;
-        font-weight: bold;
-        text-decoration: none;
-    }
-    .menu-bar span {
-        font-size: 50px;
-        float: right;
-    }
-    nav ul {
-        text-align: left;
-    }
-    nav ul li {
-        display: block;
-        border-bottom: 1px solid rgb(219, 219, 219);
-    }
-    nav ul .children{
-        position: relative;
-        width: 100%;
-    }
-    h1{
-        margin: 35px 0 35px 35px;
-        text-align: center;
-    }
-    
-      nav ul li:hover .children {
-    display: none;
-      
-    }
-
-     }
 }

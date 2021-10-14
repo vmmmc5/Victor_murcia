@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    color: blue;
 }
 .contenedor {
     display: grid;
@@ -7,7 +8,7 @@ h1 {
     gap: 10px;
     width: 90%;
     max-width: 1000px;
-    border: 3px solid black;
+/*     border: 3px solid black; */
     margin: 0 auto;
     font-size: 1.8em;
   
@@ -24,15 +25,17 @@ h1 {
 /*contenedores hijos*/
 .contenedor > div {
     display: flex;
-   border: 2px solid black;
+  /*  border: 2px solid black; */
+  text-align:left;
     color: black;
+    background: rgb(247, 239, 174);
     padding: 20px;
     box-shadow: 2px 2px 10px rgb(0,0,0,.25);
     justify-content: center;
     align-items: center;
 }
 .contenedor .nombre-dia {
-    background: aqua;
+    background: green;
 }
 .primer_dia {
     grid-column-start: 4;
@@ -42,5 +45,10 @@ h1 {
     grid-column-start: 1;
     grid-column-end: 8;
     font-size: 1.8em;
+    font-style: italic;
+}
+.contenedor .dia-festivo{
+    background: royalblue;
+    font-size: 0.50em;
     font-style: italic;
 }

@@ -3,6 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    padding: 25px; 
+  }
+  li{
+    display: inline-block;
+    border-left: white;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  img{
+      height: 350px;
+      width: 350px;
+  }
 .encabezado, .nav-bar, .img-principal, .cards{
     color: black;
     font-size: 1.8em;
@@ -16,31 +38,32 @@
     margin: 0 auto;
     max-width: 1200px;
     gap: 20px;
-    grid-template: "encabezado      nav-bar       nav-bar"       100px
+    grid-template: "encabezado      nav-bar       nav-bar"       90px
                     "img-principal  img-principal img-principal" 350px
                     "card-1         card-2        card-3"       auto
                     "card-4         card-5        card-6"       auto
                     "1fr             1fr           1fr";               
 }
 .encabezado{
-    margin-top: 50px;
-    background-color: blue;
     grid-area: encabezado;
 }
 .nav-bar{
-    margin-top: 50px;
-    background: blueviolet;
+    background: indigo;
     grid-area: nav-bar;
 }
 .img-principal{
-    background: rgb(248, 2, 2);
+    background-image: url(../img/Banner-laptops-hp-348-G7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     grid-area: img-principal;
 }
 .cards{
+   
     display: flex;
     flex-direction: column;
 }
 .card-1{
+    
     grid-area: card-1;
 }
 .card-2{
@@ -58,37 +81,41 @@
 .card-6{
     grid-area: card-6;
 }
-.img-card{
-    background: chartreuse;
-    max-width: 100%;
-}
 .text-card{
     color: darkblue;
 }
-@media(max-width: 987px) {
+.fas fa-tools{
+    font-size: 2.3em;
+    border-radius: 10px black;
+    text-align: left;
+}
+.logo{
+    font-size: 1.3em;
+    font-family: cursive;
+}
+@media(max-width: 1200px) {
     .main-container{
         grid-template: "encabezado     nav-bar"       100px
                        "img-principal  img-principal" 350px
                        "card-1         card-2"       auto
                        "card-3         card-4"       auto
-                       "card-5         card-6"       auto 
+                       "card-5         card-6"       auto
                        "1fr             1fr";   
-    justify-items: stretch;
     }
 }
 @media(max-width: 800px) {
     .main-container{
-        width: 90%;
-        grid-template: "nav-var"      100px
-                       "encabezado"    200px
+        width: 100%;
+        grid-template: "encabezado"    100px
+                       "nav-bar"       200px
                        "img-principal" 350px
                        "card-1"        auto
                        "card-2"        auto
                        "card-3"        auto   
                        "card-4"        auto
                        "card-5"        auto
-                       "card-6"        auto 
+                       "card-6"        auto
                        "1fr"; 
-    justify-items: stretch;
+
     }
 }

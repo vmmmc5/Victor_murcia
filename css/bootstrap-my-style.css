@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: ;
+}
+h1{
+    text-align:center;
+}
+h2{
+    margin-left: 100px;
+    text-align: left;
+}
+.container-style{
+    background-color: limegreen;
+    color: linen;
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 60px;
+}
+.col-style {
+    border: 1px solid rgba(48, 48, 48, 0.8);
+    text-align: center;
+}
+.row-style{
+    margin-bottom: 30px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.bt-style{
+    cursor: pointer;
+    font-size: 1.5em;
+    width: 100%;
+}
+.margin-icon{
+    margin-right: 15px;
+}

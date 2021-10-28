@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-my-style.css">
+        <link rel="stylesheet" href="icons/all.css">
+    </head>
+    <body>
+        <h1>Elementos de bootstrap</h1>
+        <h2>container</h2>
+        <div class="container container-style" >
+            container xs
+        </div>
+        <div class="container-sm container-style">
+            conttainer ms
+        </div>
+        <div class="container-md container-style">
+            container md
+        </div>
+        <div class="container-lg container-style"> 
+            container lg
+        </div>
+        <div class="container-xl container-style">
+            container xl
+        </div>
+        <div class="container-xxl container-style">
+            container xxl
+        </div>
+        <div class="container-fluid container-style">
+            container fluid
+        </div>
+        <h2>Columnas</h2>
+        <div class="container-xl">
+            <div class="row row-style">
+                <div class="col col-style">
+                    columna 1
+                </div>
+                <div class="col col-style">
+                    columna 2
+                </div>
+                <div class="col col-style">
+                    columna 3
+                </div>
+                <div class="col col-style">
+                    columna 4
+                </div>
+                <div class="col col-style">
+                    columna 5
+                </div>
+                <div class="col col-style">
+                    columna 6
+                </div>
+                <div class="col col-style">
+                    columna 7
+                </div>
+                <div class="col col-style">
+                    columna 8
+                </div>
+                <div class="col col-style">
+                    columna 9
+                </div>
+                <div class="col col-style">
+                    columna 10
+                </div>
+                <div class="col col-style">
+                    columna 11
+                </div>
+                <div class="col col-style">
+                    columna 12
+                </div>
+            </div>
+        </div>
+        <h2>basic form</h2>
+        <div class="container ">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombres</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre del usuario">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+        <h2>select</h2>
+        <div class="row">
+            <div class="col-4">
+                <label for="">Seleccione el municipo de recidencia</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Pitalito</option>
+                    <option value="1">San agustin</option>
+                    <option value="2">Timana</option>
+                    <option value="3">Acevedo</option>
+                  </select>
+            </div>
+        </div>
+        <h2>checks</h2>
+        <div class="row">
+            <div class="col-4">
+                <div class="form-check">
+                    <input class="form-check-input cursor-pointer" type="checkbox" value="" id="vue">
+                    <label class="form-check-label cursor-pointer" for="vue">
+                      vue.js
+                    </label>
+                  </div><div class="form-check">
+                    <input class="form-check-input cursor-pointer" type="checkbox" value="" id="js">
+                    <label class="form-check-label cursor-pointer" for="js">
+                      js.js
+                    </label>
+                  </div><div class="form-check">
+                    <input class="form-check-input cursor-pointer" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label cursor-pointer" for="flexCheckDefault">
+                      Default checkbox
+                    </label>
+                  </div><div class="form-check">
+                    <input class="form-check-input cursor-pointer" type="checkbox" value="" id="ninguno">
+                    <label class="form-check-label cursor-pointer" for="ninguno">
+                      no uso libreria
+                    </label>
+                  </div>
+                      </div>
+            <h2>radio</h2>
+            <divv class="row">
+                <div class="col-4">
+                    <div class="form-check">
+                        <input class="form-check-input cursor-pointer" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label cursor-pointer" for="flexRadioDefault1">
+                          java
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input cursor-pointer" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label cursor-pointer" for="flexRadioDefault1">
+                          c++
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          c#
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          php
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          javascript
+                        </label>
+                      </div>
+                      <h2>boton</h2>
+                      <div class="row">
+                          <div class="col-4">
+                            <button type="button" class="btn btn-success bt-style"><i class="fas fa-shopping-cart margin-icon"></i><br/>Aceptar</button>
+                          </div>
+                        <div class="col-4">
+                          <button type="button" class="btn btn-danger bt-style"><i class="far fa-window-close margin-icon"></i>cancelar</button>
+                        </div>
+                        </div>                                                                                
+                </div>
+            </div>
+            </div>
+        </div>
+        </html>
+    </body>

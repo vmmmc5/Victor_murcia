@@ -8,13 +8,15 @@
     <script src="js/fields.js"></script>
 </head>
 <body>
-    <p>Nombre:</p>  <br>
-    <input class="tam_fue" type="text" name="" id="" onfocus="this.style.backgroundColor='whitesmoke'" onblur="this.style.backgroundColor='white'">
     <h3>Validando si el usuario ingreso información</h3>
-    <form onsubmit="validarInfo('numeroDocumento');">
+    <form onsubmit="validarInfo('numeroDocumento','venombr');">
         <p>Número de Documento</p>
         <input type="text" id="numeroDocumento">
+        <p>Nombre:</p> 
+        <input  type="text" id="venombr" onfocus="this.style.backgroundColor='whitesmoke'" onblur="this.style.backgroundColor='white'" >
+        <br>
+        <br>
         <input type="submit" value="Enviar">
         <form>
 </body>
-</html>
+</html> 

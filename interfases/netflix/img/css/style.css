@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.img_cinta{
+    width: 220px;/*150px*/
+    height: 330px;/*220*/
+    cursor: pointer;
+    margin-left: 10px;
+}
+.box-img-principal{
+    display: block;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+.img-principal{
+    width: 600px;
+    height: 400px;
+}
+.cinta-movies{
+    margin-top: 20px;
+}

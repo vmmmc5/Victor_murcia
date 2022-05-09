@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+.img_cinta{
+    width: 220px;/*150px*/
+    height: 330px;/*220*/
+    cursor: pointer;
+}

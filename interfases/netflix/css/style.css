@@ -10,4 +10,15 @@ body{
     width: 220px;/*150px*/
     height: 330px;/*220*/
     cursor: pointer;
+}.box-img-principal{
+    display: block;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+.img-principal{
+    width: 750px;
+}
+.cinta-movies{
+    margin-top: 20px;
 }

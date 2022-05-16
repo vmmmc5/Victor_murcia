@@ -5,7 +5,7 @@
 .main-content{
     display: grid;
     width: 100%;
-    background-color: mediumblue;
+    background-color: rgb(255, 190, 134);
     grid-template: "empty-top            empty-top          empty-top    empty-top" 50px
                     "empty-izq           img-libro           info-libro  empty-derc" auto/
                     50px                  200px               300px      1fr;

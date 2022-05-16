@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-content{
+    display: grid;
+    width: 100%;
+    background-color: mediumblue;
+    grid-template: "empty-top            empty-top          empty-top    empty-top" 50px
+                    "empty-izq           img-libro           info-libro  empty-derc" auto/
+                    50px                  200px               300px      1fr;
+}
+.img-libro{
+    grid-area: img-libro;
+    display: grid;
+    width: 100%;
+}
+.info-libro{
+    grid-area: info-libro;
+    width: 100%;
+}

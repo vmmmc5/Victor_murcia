@@ -11,9 +11,5 @@ function pruebaResta() {
     if (cantidadLibros > 0 ) {
         cantidadLibros = Number(cantidadLibros) - 1;
         document.getElementById("cantidadLibros").innerHTML = cantidadLibros;
-    }
-
-    
-
-    
+    }  
 }

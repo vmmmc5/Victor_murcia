@@ -2,13 +2,35 @@
     padding: 0;
     margin: 0;
 }
-.main-content{
+/* .main-content{
     display: grid;
     width: 100%;
     background-color: rgb(255, 190, 134);
-    grid-template: "empty-top            empty-top          empty-top    empty-top" 50px
-                    "empty-izq           img-libro           info-libro  empty-derc" auto/
-                    50px                  200px               300px      1fr;
+    grid-template: "empty-top            empty-top        empty-top     empty-top" 50px
+                    "empty-izq           img-libro        info-libro    empty-derc" auto/ 
+                    ".                    botomNumeros    .              .       "
+                    50px                 200px          300px           1fr;
+
+} */
+.main-content {
+    display: grid; 
+    width: 100%;
+    grid-template-columns: 50px 200px 300px 1fr; 
+    grid-template-rows: 10px 50px 1fr 50px; 
+    gap: 10px 10px; 
+    grid-template-areas: 
+      ". . . ."
+      ". producto producto ."
+      ". img-libro info-libro ."
+      ". botonNumeros . ."; 
+  }
+.producto{
+    background-color: yellow;
+    grid-area: producto;
+    display: grid;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
 }
 .img-libro{
     grid-area: img-libro;
@@ -17,5 +39,27 @@
 }
 .info-libro{
     grid-area: info-libro;
+    display: grid;
     width: 100%;
+    margin-left: 10%;
 }
+.botonNumeros { 
+        display: grid; 
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 10px 10px; 
+        grid-template-areas: 
+          ". . ."; 
+        grid-area: botonNumeros; 
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-top: 1%;
+      
+}
+.boton-cantidad-style{
+    font-size: 32px;
+    margin: auto;
+    cursor: pointer;
+}
+

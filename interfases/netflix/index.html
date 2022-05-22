@@ -8,17 +8,32 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <nav>
+    <ul>
+</ul>
+</nav>
     <div class="box-img-principal">
         <img id="imgPrincipal" class="img-principal" src="img/descarga.jpg" alt="Elite">
+        <div class="body">
+            <p id="tituloPrincipal" class="titulo">ELITE</p><br>
+            <p  id="descripcion" class="desc">  Tres jóvenes de la clase obrera asisten a una de las escuelas privadas más exclusivas de España, donde el choque con los hijos de la élite acaba en una tragedia.</p>
+        </div>
     </div>
     <div class="cinta-movies">
-        <img id="idElite"class="img_cinta" onmouseover="intercambiarImagen('img/descarga.jpg');"  src="img/elite.jpg" alt="">
-        <img id="idHill"  class="img_cinta"onmouseover="intercambiarImagen('img/hilhouse.png');" src="img/La_maldici_n_de_Hill_House_Serie_de_TV-172762742-large.jpg" alt="">
-        <img id="idCien" class="img_cinta" onmouseover="intercambiarImagen('img/the-100.jpg');" src="img/los_100_332x472.jpg" alt="">
-        <img id="idUmbrella" class="img_cinta" onmouseover="intercambiarImagen('img/the_umbrella.jpeg');" src="img/the_umbrela.jpg" alt="">
-        <img id="idcontrolz" class="img_cinta"onmouseover="intercambiarImagen('img/Control_Z.jpeg');" src="img/controlz.png" alt="">
-        <img id="idgambito" class="img_cinta"onmouseover="intercambiarImagen('img/Gambito_de_dama2.png');" src="img/Gambito_de_dama.jpg" alt="">
-        <img id="idlupin" class="img_cinta"onmouseover="intercambiarImagen('img/lupin2.jpg');" src="img/lupin.jpg" alt="">
+        <img id="idElite"class="img_cinta" onmouseover="intercambiarImagen('img/descarga.jpg'); cambiarTitulo('ELITE'); 
+        cambiarContenido('Tres jóvenes de la clase obrera asisten a una de las escuelas privadas más exclusivas de España, donde el choque con los hijos de la élite acaba en una tragedia.');" src="img/elite.jpg" alt="">
+        <img id="idHill"  class="img_cinta"onmouseover="intercambiarImagen('img/hilhouse.png'); cambiarTitulo('HILL HOUSE'); 
+        cambiarContenido('Con flashes del pasado y del presente, una familia rota enfrenta los tormentosos recuerdos de su viejo hogar y el terror que la hizo alejarse de allí.');" src="img/La_maldici_n_de_Hill_House_Serie_de_TV-172762742-large.jpg" alt="hill_house">
+        <img id="idCien" class="img_cinta" onmouseover="intercambiarImagen('img/the-100.jpg'); cambiarTitulo('LOS 100'); 
+        cambiarContenido('Un siglo después de que la Tierra fuera devastada por un holocausto nuclear, cien habitantes de una estación espacial vuelven al planeta para determinar si es habitable.');" src="img/los_100_332x472.jpg" alt="">
+        <img id="idUmbrella" class="img_cinta" onmouseover="intercambiarImagen('img/the_umbrella.jpeg'); cambiarTitulo('THE UMBRELLA ACADEMY'); 
+        cambiarContenido('Se tuvo que morir el padre para que se vuelvan a reunir. Cabe destacar que entre superhéroes el vínculo familiar es una de las mayores causas de apocalipsis prematuro.');" src="img/the_umbrela.jpg" alt="">
+        <img id="idcontrolz" class="img_cinta"onmouseover="intercambiarImagen('img/Control_Z.jpeg'); cambiarTitulo('CONTROL Z'); 
+        cambiarContenido('Luego de que un hacker comienza a exponer los secretos de los estudiantes frente a toda la escuela, la distante y observadora Sofía se dispone a descubrir su identidad.');" src="img/controlz.png" alt="">
+        <img id="idgambito" class="img_cinta"onmouseover="intercambiarImagen('img/Gambito_de_dama2.png'); cambiarTitulo('GAMBITO DE DAMA'); 
+        cambiarContenido('En los cincuenta, una joven de un orfanato descubre que tiene un increíble don para el ajedrez y recorre el arduo camino a la fama mientras lucha contra las adicciones.');" src="img/Gambito_de_dama.jpg" alt="">
+        <img id="idlupin" class="img_cinta"onmouseover="intercambiarImagen('img/lupin2.jpg'); cambiarTitulo('LUPIN'); 
+        cambiarContenido('Inspirado en las aventuras de Arsène Lupin, el caballeroso ladrón Assane Diop se propone vengar a su padre de las injusticias sufridas a manos de una familia adinerada.');" src="img/lupin.jpg" alt="">
     </div>
 
     <script src="js/script.js"></script>

@@ -15,27 +15,38 @@
 .main-content {
     display: grid; 
     width: 100%;
+    grid-column-end: span 6;
     grid-template-columns: 50px 200px 300px 1fr; 
-    grid-template-rows: 10px 50px 1fr 50px; 
+    grid-template-rows: 20px 30px 1fr 50px; 
     gap: 10px 10px; 
     grid-template-areas: 
-      ". . . ."
+      ". pres pres ."
       ". producto producto ."
       ". img-libro info-libro ."
       ". botonNumeros . ."; 
   }
+  .pres{
+      margin: 10px 0;
+      grid-area: pres;
+      display: grid;
+      font-weight: 800;
+      font-size: 1.3em;
+  }
 .producto{
-    background-color: yellow;
+    background-color: rgb(0, 162, 255);
     grid-area: producto;
     display: grid;
     border-radius: 10px;
     font-size: 25px;
     text-align: center;
+    color: white;
 }
 .img-libro{
     grid-area: img-libro;
     display: grid;
     width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 .info-libro{
     grid-area: info-libro;
@@ -61,5 +72,9 @@
     font-size: 32px;
     margin: auto;
     cursor: pointer;
+}
+.precio{
+    font-weight: 900;
+    font-size: 1.3em;
 }
 
